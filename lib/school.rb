@@ -11,7 +11,7 @@ attr_reader :name, :roster
   def add_student(name, grade)
     @roster[grade] ||= []
     @roster[grade] << name
-
+    binding.pry
   # original attempt, thinking to check if the grade being passed in already exists, and if so just add the name,
   #if not, create the key and add the students
   #   @roster.collect do |grade_number, name_array|
