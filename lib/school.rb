@@ -21,7 +21,7 @@ end
     @roster.each do |grade, name|
       @roster[grade] = name.sort
     end
-    binding.pry
+  
 
   end
 
